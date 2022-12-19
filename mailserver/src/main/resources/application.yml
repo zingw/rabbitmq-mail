@@ -1,0 +1,17 @@
+spring:
+  mail:
+    properties:
+      mail:
+        transport:
+          protocol: smtp
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+        debug: true
+    host: smtp.gmail.com
+    port: 587
+    username: vietduc.bk69@gmail.com
+    password: ghxiqfkwiefwrlpq
+  rabbitmq:
+    addresses: localhost:5672
