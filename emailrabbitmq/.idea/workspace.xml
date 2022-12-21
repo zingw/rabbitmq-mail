@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="118aaa55-2a77-4910-9a49-6b8127e2c27a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/emailpublisher/PublisherApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/emailpublisher/config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/emailpublisher/controller/MailPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/emailpublisher/dto/MailInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/emailpublisher/PublisherAppTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mailserver/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mailserver/src/main/java/com/duclv/service/mailserver/config/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mailserver/src/main/java/com/duclv/service/mailserver/config/MailService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,13 +41,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/springboot-rabbitmq-example"
+    "last_opened_file_path": "D:/selflearning/rabbitmq-mail/mailserver",
+    "spring.configuration.checksum": "5d0ee7184eabdbae8107c1b4a7ad8886"
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.EmailrabbitmqApplication">
     <configuration name="MailPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.emailpublisher.controller.MailPublisher" />
-      <module name="emailrabbitmq" />
+      <module name="mailpublisher" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.emailpublisher.controller.*" />
@@ -70,7 +61,7 @@
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.emailpublisher.controller.Test" />
-      <module name="emailrabbitmq" />
+      <module name="mailpublisher" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.emailpublisher.controller.*" />
@@ -82,7 +73,7 @@
       </method>
     </configuration>
     <configuration name="EmailrabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="emailrabbitmq" />
+      <module name="mailpublisher" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.emailpublisher.PublisherApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671462337985</updated>
       <workItem from="1671462339167" duration="7551000" />
+      <workItem from="1671585022241" duration="695000" />
     </task>
     <servers />
   </component>

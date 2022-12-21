@@ -31,7 +31,7 @@ public class MailService {
             helper.setFrom("vietduc.bk69@gmail.com");
             helper.setTo(mailInfo.getReceiver());
             helper.setSubject(mailInfo.getSubject());
-            helper.setText(text);
+            helper.setText(text,true);
 
         } catch (
                 MessagingException e) {

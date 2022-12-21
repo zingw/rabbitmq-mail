@@ -23,19 +23,4 @@ public class MailPublisher {
         return ResponseEntity.ok().body("message sent success to " + mailInfo.getReceiver());
     }
 
-//    public static void main(String[] args) throws JsonProcessingException {
-//        Map<String,String> params = new HashMap<>();
-//        params.put("name","Tho");
-//        params.put("age","23");
-//        params.put("favor","sex");
-//        MailInfo mailInfo = new MailInfo("viettho.bk92", "duclv",params);
-//        ObjectMapper objectMapper = new ObjectMapper();
-//        String mailJson = objectMapper.writeValueAsString(mailInfo);
-//
-//        MailInfo mailInfoAfter = objectMapper.readValue(mailJson, MailInfo.class);
-//        System.out.println(mailInfoAfter.getParams().get("name"));
-//        System.out.println(mailInfoAfter.getParams().get("age"));
-//        System.out.println(mailInfoAfter.getParams().get("favor"));
-//        System.out.println("Ok");
-//    }
 }
