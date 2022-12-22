@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="118aaa55-2a77-4910-9a49-6b8127e2c27a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../mailserver/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mailserver/src/main/java/com/duclv/service/mailserver/config/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mailserver/src/main/java/com/duclv/service/mailserver/config/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mailserver/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mailserver/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mailserver/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mailserver/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mailserver/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mailserver/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mailserver/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mailserver/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mailserver/src/main/java/com/duclv/service/mailserver/MailApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mailserver/src/main/java/com/duclv/service/mailserver/MailApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mailserver/src/main/java/com/duclv/service/mailserver/consumer/MailConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mailserver/src/main/java/com/duclv/service/mailserver/consumer/MailConsumer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +31,14 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2J8anicrvm9X1TfEz0vSRCF0ba7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,8 +54,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/selflearning/rabbitmq-mail/mailserver",
-    "spring.configuration.checksum": "5d0ee7184eabdbae8107c1b4a7ad8886"
+    "last_opened_file_path": "D:/smartotp",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "09ef7b9a6d81b8f0f728d970dcf31229"
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.EmailrabbitmqApplication">
@@ -96,6 +113,7 @@
       <updated>1671462337985</updated>
       <workItem from="1671462339167" duration="7551000" />
       <workItem from="1671585022241" duration="695000" />
+      <workItem from="1671721079012" duration="3873000" />
     </task>
     <servers />
   </component>

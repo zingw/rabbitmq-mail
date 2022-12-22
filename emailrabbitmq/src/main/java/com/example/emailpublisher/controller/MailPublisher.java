@@ -19,7 +19,8 @@ public class MailPublisher {
 
     @PostMapping("/send-email")
     public ResponseEntity<String> sendSampleEmailRabbitMQ(@RequestBody MailInfo mailInfo) {
-        rabbitTemplate.convertAndSend(RabbitConfig.MAIL_EXCHANGE, RabbitConfig.ROUTING_KEY, mailInfo);
+        rabbitTemplate.convertAndSend(RabbitConfig.MAIL_EXCHANGE, RabbitConfig.MAIL_KEY, mailInfo);
+        rabbitTemplate.convertAndSend(RabbitConfig.MAIL_EXCHANGE, RabbitConfig.SMS_KEY, mailInfo);
         return ResponseEntity.ok().body("message sent success to " + mailInfo.getReceiver());
     }
 
